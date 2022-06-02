@@ -6,4 +6,17 @@ html {
     background-color: #2f2e2c;
 }
 
+.desktopLeft{
+margin-left: 1em;
+margin-top: 1em;
+padding-right: 62em;
+}
+
+.desktopRight{
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+
 
