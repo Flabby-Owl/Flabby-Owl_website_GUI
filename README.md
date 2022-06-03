@@ -2,7 +2,7 @@
 
 Pour aller avec le projet **Flabby-Owl_website** et son fonctionnement particulier, j'ai imaginé une Interface graphique inspirée de Cinnamon (le Desktop Environnement sous GNU/Linux) et utilisant la palette **[Nord](https://www.nordtheme.com/ "An arctic, north-bluish color palette")**  
 
-![Screenshot de Flabby-Owl_website_GUI](/home/barkod/Flabby-Owl_website_GUI/demo/demo.png  "Voici a quoi cela ressemble")
+![Screenshot de Flabby-Owl_website_GUI](/demo/demo.png  "Voici a quoi cela ressemble")
 
 Celui-ci est pour l'instant realisé a l'aide des technos suivantes:
 - HTML / CSS
