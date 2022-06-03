@@ -1,73 +1,65 @@
-
 <!doctype html>
 <html lang="en" dir="ltr" class="has-navbar-fixed-bottom">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flabby-Owl: Sysadmin / Netadmin Freelance</title>
-    <link rel="stylesheet" href="css/bulma.css">
-    <link rel="stylesheet" href="css/nord.css">
-    <link rel="stylesheet" href="css/app.css">
-    <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
-  </head>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flabby-Owl: Sysadmin / Netadmin Freelance</title>
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/nord.css">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon.png">
+</head>
+
 <body>
-<!--Barre des Taches-->
-  <nav class="navbar is-fixed-bottom nord-bgcolor-night-1" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
-        <img src="./img/panel/menu.png" height="40px">
-      </a>
-  
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-  
-      <div class="navbar-end has-text-centered">
-        <div class="navbar-item">
+  <!--Barre des Taches-->
+  <nav class="navbar navbar-nord-night-1 is-fixed-bottom" role="navigation" aria-label="main navigation">
+    <a class="navbar-item" href="https://bulma.io">
+      <img src="./img/panel/menu.png">
+    </a>
 
-<div class="container">
-  <p class="is-size-5 has-text-weight-bold nord-color-storm-1" id="time">TIME</p>
+    <div class="navbar-end has-text-centered">
+      <div class="navbar-item">
 
-  <p class="is-size-6 has-text-weight-bold nord-color-storm-1" id="date">DATE</p>
-</div>
+        <div class="container" id="clock">
+          <p class="is-size-6 has-text-weight-bold nord-color-storm-1" id="time">TIME</p>
+          <p class="is-size-7 has-text-weight-bold nord-color-storm-1" id="date">DATE</p>
+        </div>
 
 
       </div>
-              
-        </div>
+
+    </div>
   </nav>
 
   <!--Bureau-->
 
   <div class="columns desktopLeft">
-    
+
     <div class="column is-one-fifths">
 
       <div class="block has-text-centered">
         <figure class="image is-48x48 is-inline-block">
           <img src="./img/desktop/admin.svg">
         </figure>
-    <p class="subtitle is-6 nord-color-storm-1">Administration</p>
+        <p class="subtitle is-6 nord-color-storm-1">Administration</p>
       </div>
-    
+
       <div class="block has-text-centered">
         <figure class="image is-48x48 is-inline-block">
           <img src="./img/desktop/maint.svg">
         </figure>
         <p class="subtitle is-6 nord-color-storm-1">Maintenance</p>
       </div>
-    
+
       <div class="block has-text-centered">
         <figure class="image is-48x48 is-inline-block">
           <img src="./img/desktop/forma.svg">
         </figure>
         <p class="subtitle is-6 nord-color-storm-1">Formations</p>
       </div>
-    
+
       <div class="block has-text-centered">
         <figure class="image is-48x48 is-inline-block">
           <img src="./img/desktop/home.svg">
@@ -77,20 +69,12 @@
 
     </div>
     <div class="column">
-
-
-
-
-      
+      PLACEHOLDER
     </div>
   </div>
 
-      
+  <script src="js/jquery.js"></script>
+  <script src="js/app.js"></script>
+</body>
 
-
-
-
-    <script src="js/jquery.js"></script>
-    <script src="js/app.js"></script>
-  </body>
 </html>

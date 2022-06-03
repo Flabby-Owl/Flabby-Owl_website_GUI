@@ -6,17 +6,40 @@ html {
     background-color: #2f2e2c;
 }
 
-.desktopLeft{
-margin-left: 1em;
-margin-top: 1em;
-padding-right: 62em;
+@font-face {
+    font-family: "San Francisco Regular";
+    src: url("SF Pro Display Regular.otf") format("otf");
 }
 
-.desktopRight{
+@font-face {
+    font-family: "San Francisco Bold";
+    src: url("/fonts/SF Pro Display Bold.otf") format("otf");
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a {
+    font-family: "San Francisco Regular", Arial, Helvetica, sans-serif;
+}
+
+.flabbyBold {
+    font-family: "San Francisco Bold", Arial, Helvetica, sans-serif;
+}
+
+.desktopLeft {
+    margin-left: 1em;
+    margin-top: 1em;
+    padding-right: 62em;
+}
+
+.desktopRight {
     margin-right: 1em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-
-
-
