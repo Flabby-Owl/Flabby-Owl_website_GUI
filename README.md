@@ -9,6 +9,9 @@ Celui-ci est pour l'instant realisé a l'aide des technos suivantes:
 - JS / jQuery 
 - Framework CSS [Bulma](https://bulma.io/ "Bulma: the modern CSS framework that just works.")
 
+Afin de realiser les fenêtres nécessaires à une UI digne de ce nom, j'utiliserais aussi [Window-Engine](https://github.com/GStaehler/Window-Engine "Lightweight Draggable Popup Window In Vanilla JavaScript – Window Engine") de **Gauthier Staehler** que je customiserais a ma sauce pour avoir le rendu que je souhaite.
+
+
 Mais utilisera a terme **nodejs** et du **SCSS/SASS** dans un container **Docker.**
 
 Etant donné qu'actuellement ce projet est en **HTML/CSS/JS/jQuery** pur, aucune dependance tierces autre que **git** n'est requise, un simple `git clone https://github.com/Flabby-Owl/Flabby-Owl_website_GUI.git` suffit
