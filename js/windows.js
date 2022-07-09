@@ -108,13 +108,19 @@ function fadeIn(elmnt) {
             opacity += 30 / 70;
             if (opacity >= 1) {
                 clearInterval(timer);
+                /*Opacité d'origine
                 opacity = 0.9;
+                */
+                opacity = 1;
             }
             elmnt.style.opacity = opacity;
             activeWindow(elmnt);
         }, 50);
     } else {
+        /* Opacité d'origine
         elmnt.style.opacity = "0.9";
+        */
+        elmnt.style.opacity = "1";
         activeWindow(elmnt);
     }
 }

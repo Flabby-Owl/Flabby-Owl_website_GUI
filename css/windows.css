@@ -4,12 +4,19 @@
 	position: absolute;
 	top: 80px;
 	z-index: 9;
-	background-color: #f1f1f1;
-	width: 800px;
-	height: 400px;
+	background-color: #303643;
+		/*Taille d'origine
+		width: 800px;
+		height: 400px;
+		*/
+		width: 1024px;
+		height: 600px;
 	border-radius: 8px 8px 0 0;
 	box-shadow: 8px 8px 6px -6px black;
+	/*Opacité d'origine
 	opacity: 0.9;
+	*/
+	opacity: 1;
 	display: none;
 }
 
@@ -75,6 +82,10 @@
 
 .green {
 	background-color: darkgreen;
+}
+
+.nord {
+	background-color: #2e3440;
 }
 
 .small {

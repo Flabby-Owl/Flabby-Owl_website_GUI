@@ -38,41 +38,78 @@
 
   <div class="columns desktopLeft">
 
-    <div class="column is-one-fifths">
+    <div class="column is-1">
 
-      <div class="block has-text-centered">
-        <figure class="image is-48x48 is-inline-block">
-          <img src="./img/desktop/admin.svg">
-        </figure>
-        <p class="subtitle is-6 nord-color-storm-1">Administration</p>
-      </div>
+      <button id="button1" class="desktopIcon">
+        <div class="block has-text-centered">
+          <figure class="image is-48x48 is-inline-block">
+            <img src="./img/desktop/admin.svg">
+          </figure>
+          <p class="subtitle is-6 nord-color-storm-1">Administration</p>
+        </div>
+      </button>
 
-      <div class="block has-text-centered">
-        <figure class="image is-48x48 is-inline-block">
-          <img src="./img/desktop/maint.svg">
-        </figure>
-        <p class="subtitle is-6 nord-color-storm-1">Maintenance</p>
-      </div>
+      <button id="button2" class="desktopIcon">
+        <div class="block has-text-centered">
+          <figure class="image is-48x48 is-inline-block">
+            <img src="./img/desktop/maint.svg">
+          </figure>
+          <p class="subtitle is-6 nord-color-storm-1">Maintenance</p>
+        </div>
+      </button>
 
-      <div class="block has-text-centered">
-        <figure class="image is-48x48 is-inline-block">
-          <img src="./img/desktop/forma.svg">
-        </figure>
-        <p class="subtitle is-6 nord-color-storm-1">Formations</p>
-      </div>
+      <button id="button3" class="desktopIcon">
+        <div class="block has-text-centered">
+          <figure class="image is-48x48 is-inline-block">
+            <img src="./img/desktop/forma.svg">
+          </figure>
+          <p class="subtitle is-6 nord-color-storm-1">Formations</p>
+        </div>
+      </button>
 
-      <div class="block has-text-centered">
-        <figure class="image is-48x48 is-inline-block">
-          <img src="./img/desktop/home.svg">
-        </figure>
-        <p class="subtitle is-6 nord-color-storm-1">Documents</p>
-      </div>
+<button id="button4" class="desktopIcon">
+  <div class="block has-text-centered">
+    <figure class="image is-48x48 is-inline-block">
+      <img src="./img/desktop/home.svg">
+    </figure>
+    <p class="subtitle is-6 nord-color-storm-1">Documents</p>
+  </div>
+</button>
 
-    </div>
-    <div class="column">
-      PLACEHOLDER
     </div>
   </div>
+  
+
+  <!--Groupe de Fenêtres-->
+  <div class="windowGroup"> 
+    <div id="window1" class="window fade">
+      <div class="nord">
+        <p class="windowTitle">Administration</p>
+      </div>
+      <div class="mainWindow">Content</div>
+    </div>
+  
+    <div id="window2" class="window fade">
+      <div class="nord">
+        <p class="windowTitle">Maintenance</p>
+      </div>
+      <div class="mainWindow">Content</div>
+    </div>
+  
+    <div id="window3" class="window fade">
+      <div class="nord">
+        <p class="windowTitle">Formations</p>
+      </div>
+      <div class="mainWindow">Content</div>
+    </div>
+  
+    <div id="window4" class="window fade">
+      <div class="nord">
+        <p class="windowTitle">Documents</p>
+      </div>
+      <div class="mainWindow">Content</div>
+    </div>
+  </div>  
 
   <script src="js/jquery.js"></script>
   <script src="js/app.js"></script>
