@@ -12,6 +12,8 @@ Celui-ci est pour l'instant realisé a l'aide des technos suivantes:
 Afin de realiser les fenêtres nécessaires à une UI digne de ce nom, j'utiliserais aussi:
 - [Window-Engine](https://github.com/GStaehler/Window-Engine "Lightweight Draggable Popup Window In Vanilla JavaScript – Window Engine") de **Gauthier Staehler** que je customiserais a ma sauce pour avoir le rendu que je souhaite.
 
+![Screenshot des fenetres ouvertes](/demo/demo2.png "Un Aperçu du systeme de Fenêtrage")
+
 Ce projet devrait utiliser, a terme:
 
 - [Caddy](https://caddyserver.com/ "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go")
