@@ -34,6 +34,7 @@ a {
 
 .desktopLeft {
     margin-left: 2em;
+    margin-right: 2em;
     margin-top: 1em;
 }
 
@@ -46,8 +47,7 @@ a {
 .desktopIcon {
     background-color: #2f2e2c;
     border-style: hidden;
-    margin: 5%;
-    padding: 5%;
+    padding: 1em;
 }
 
 .desktopIcon:hover {
