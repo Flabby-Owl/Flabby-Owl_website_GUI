@@ -43,43 +43,35 @@
           <figure class="image is-48x48 is-inline-block">
             <img src="./img/desktop/admin.svg">
           </figure>
-          <div class="has-text-centered">
-          <p class="subtitle is-6 nord-color-storm-1">Administration</p>
-        </div>
+          <p class="subtitle is-6 nord-color-storm-1 has-text-centered">Administration</p>
       </button>
     </div>
 
       <div class="column is-12">
         <button id="button2" class="desktopIcon block">
-          <div class="has-text-centered">
             <figure class="image is-48x48 is-inline-block">
               <img src="./img/desktop/maint.svg">
             </figure>
-            <p class="subtitle is-6 nord-color-storm-1">Maintenance</p>
-          </div>
+            <p class="subtitle is-6 nord-color-storm-1 has-text-centered">Maintenance</p>
         </button>
       </div>
 
 
       <div class="column is-12">
         <button id="button3" class="desktopIcon block">
-          <div class="has-text-centered">
             <figure class="image is-48x48 is-inline-block">
               <img src="./img/desktop/forma.svg">
             </figure>
-            <p class="subtitle is-6 nord-color-storm-1 px-1">Formations</p>
-          </div>
+            <p class="subtitle is-6 nord-color-storm-1 has-text-centered">Formations</p>
         </button>
       </div>
 
       <div class="column is-12">
         <button id="button4" class="desktopIcon block">
-          <div class="has-text-centered">
             <figure class="image is-48x48 is-inline-block">
               <img src="./img/desktop/home.svg">
             </figure>
-            <p class="subtitle is-6 nord-color-storm-1 px-1">Documents</p>
-          </div>
+            <p class="subtitle is-6 nord-color-storm-1 has-text-centered">Documents</p>
         </button>
       </div>
 
@@ -87,14 +79,17 @@
   
 
   <!--Groupe de Fenêtres-->
-  <div class="windowGroup"> 
+  <div class="windowGroup">
+    
+    <!--Fenêtre Administration-->
     <div id="window1" class="window fade">
       <div class="nord">
         <img src="img/window/win_admin_icon.svg" height="24px"> <p class="windowTitle">Administration</p>
       </div>
       <div class="mainWindow">Content</div>
     </div>
-  
+
+  <!--Fenêtre Maintenance-->
     <div id="window2" class="window fade">
       <div class="nord">
         <img src="img/window/win_maint_icon.svg" height="24px"> <p class="windowTitle">Maintenance</p>
@@ -102,21 +97,62 @@
       <div class="mainWindow">Content</div>
     </div>
   
+  <!--Fenêtre Formations-->  
     <div id="window3" class="window fade">
       <div class="nord">
         <img src="img/window/win_forma_icon.svg" height="24px"> <p class="windowTitle">Formations</p>
       </div>
       <div class="mainWindow">Content</div>
     </div>
-  
+
+  <!--Fenêtre Documents-->
     <div id="window4" class="window fade">
       <div class="nord">
         <img src="img/window/win_home_icon.svg" height="24px"> <p class="windowTitle">Documents</p>
       </div>
-      <div class="mainWindow">Content</div>
+      <div class="mainWindow">
+        <div class="columns">
+          <div class="column is-3">
+            <button id="button3" class="desktopIcon block">
+                <figure class="image is-48x48 is-inline-block">
+                  <img src="./img/home/tarifs_admin.svg">
+                </figure>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_sysadmin.xls</p>
+            </button>
+          </div>
+
+          <div class="column is-3">
+            <button id="button3" class="desktopIcon block">
+                <figure class="image is-48x48 is-inline-block">
+                  <img src="./img/home/tarifs_maint.svg">
+                </figure>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_maintenance.docx</p>
+            </button>
+          </div>
+
+          <div class="column is-3">
+            <button id="button3" class="desktopIcon block">
+                <figure class="image is-48x48 is-inline-block">
+                  <img src="./img/home/tarifs_forma.svg">
+                </figure>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_formations.txt</p>
+            </button>
+          </div>
+
+          <div class="column is-3">
+            <button id="button3" class="desktopIcon block">
+                <figure class="image is-48x48 is-inline-block">
+                  <img src="./img/home/cv.svg">
+                </figure>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">mon_cv.pdf</p>
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   
+  <!--Fenêtre Mail-->
   <div id="window5" class="window fade">
     <div class="nord">
       <img src="img/window/win_mail_icon.svg" height="24px"> <p class="windowTitle">Mail</p>
@@ -125,6 +161,7 @@
   </div>
 </div>
 
+<!--Fenêtre Terminal-->
 <div id="window6" class="window fade">
   <div class="nord">
     <img src="img/window/win_nogui_icon.svg" height="24px"> <p class="windowTitle">Terminal</p>

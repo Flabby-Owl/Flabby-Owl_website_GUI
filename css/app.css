@@ -4,6 +4,7 @@ html {
     background-size: 25%;
     background-repeat: no-repeat;
     background-color: #2f2e2c;
+    overflow-y: auto;
 }
 
 @font-face {
@@ -45,7 +46,7 @@ a {
 }
 
 .desktopIcon {
-    background-color: #2f2e2c;
+    background-color: rgba(0, 0, 0, 0);
     border-style: hidden;
     padding: 1em;
 }
