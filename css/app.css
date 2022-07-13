@@ -12,11 +12,6 @@ html {
     src: url("SF Pro Display Regular.otf") format("otf");
 }
 
-@font-face {
-    font-family: "San Francisco Bold";
-    src: url("/fonts/SF Pro Display Bold.otf") format("otf");
-}
-
 p,
 h1,
 h2,
@@ -27,11 +22,13 @@ h6,
 li,
 a {
     font-family: "San Francisco Regular", Arial, Helvetica, sans-serif;
+    color: #d8dee9 !important;
+    
 }
 
-.flabbyBold {
-    font-family: "San Francisco Bold", Arial, Helvetica, sans-serif;
-}
+ul {
+    list-style-type: none !important;
+  }
 
 .desktopLeft {
     margin-left: 2em;
@@ -54,4 +51,8 @@ a {
 .desktopIcon:hover {
     background-color: #4c566a;
     border-radius: 5px;
+}
+
+.windowMenu_bg {
+	background-color: #2a2f3a;
 }
