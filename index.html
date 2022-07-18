@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flabby-Owl: Sysadmin / Netadmin Freelance</title>
   <link rel="stylesheet" href="css/bulma.css">
-  <link rel="stylesheet" href="css/fontawesome.css">
   <link rel="stylesheet" href="css/nord.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/windows.css">
@@ -87,7 +86,14 @@
       <div class="nord">
         <img src="img/window/win_admin_icon.svg" height="24px"> <p class="windowTitle">Administration</p>
       </div>
-      <div class="mainWindow">Content</div>
+      <div class="mainWindow">
+        <iframe id="inlineFrameExample"
+        title="Inline Frame Example"
+        width="760px"
+        height="320px"
+        src="pages/tarifs_admin.html">
+    </iframe>
+      </div>
     </div>
 
   <!--Fenêtre Maintenance-->
@@ -107,7 +113,7 @@
     </div>
 
   <!--Fenêtre Documents-->
-    <div id="window4" class="window fade">
+    <div id="window4" class="window fade documents">
       <div class="nord">
         <img src="img/window/win_home_icon.svg" height="24px"> <p class="windowTitle">Documents</p>
       </div>
@@ -143,7 +149,7 @@
             </div>
           </div>
           <div class="column is-2">
-            <button id="button3" class="desktopIcon block">
+            <button id="button5" class="desktopIcon block">
                 <figure class="image is-48x48 is-inline-block">
                   <img src="./img/home/tarifs_admin.svg">
                 </figure>
@@ -152,31 +158,32 @@
           </div>
 
           <div class="column is-2">
-            <button id="button3" class="desktopIcon block">
+            <button id="button6" class="desktopIcon block">
                 <figure class="image is-48x48 is-inline-block">
                   <img src="./img/home/tarifs_maint.svg">
                 </figure>
-                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_maintenance.docx</p>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_maint.docx</p>
             </button>
           </div>
 
           <div class="column is-2">
-            <button id="button3" class="desktopIcon block">
+            <button id="button7" class="desktopIcon block">
                 <figure class="image is-48x48 is-inline-block">
                   <img src="./img/home/tarifs_forma.svg">
                 </figure>
-                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_formations.txt</p>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">tarifs_forma.txt</p>
             </button>
           </div>
 
           <div class="column is-2">
-            <button id="button3" class="desktopIcon block">
+            <button id="button8" class="desktopIcon block">
                 <figure class="image is-48x48 is-inline-block">
-                  <img src="./img/home/cv.svg">
+                  <img src="./img/home/flag.svg">
                 </figure>
-                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">mon_cv.pdf</p>
+                <p class="subtitle is-6 nord-color-storm-1 has-text-centered">.flag.txt</p>
             </button>
           </div>
+
         </div>
       </div>
     </div>
@@ -199,6 +206,9 @@
   <div class="mainWindow">Content</div>
 </div>
 </div>
+
+
+
 
   <script src="js/jquery.js"></script>
   <script src="js/app.js"></script>

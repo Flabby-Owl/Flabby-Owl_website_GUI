@@ -20,7 +20,9 @@ h4,
 h5,
 h6,
 li,
-a {
+a,
+th,
+td {
     font-family: "San Francisco Regular", Arial, Helvetica, sans-serif;
     color: #d8dee9 !important;
     
@@ -55,4 +57,8 @@ ul {
 
 .windowMenu_bg {
 	background-color: #2a2f3a;
+}
+
+.windowNavbar_bg {
+	background-color: #2b313c;
 }
