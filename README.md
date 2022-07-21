@@ -19,4 +19,8 @@ Ce projet devrait utiliser, à terme:
 - [Caddy](https://caddyserver.com/ "Caddy 2 is a powerful, enterprise-ready, open source web server with automatic HTTPS written in Go")
 - [Docker](https://www.docker.com/ "Accelerate how you build, share, and run modern applications.")
 
+Vous pouvez avoir un aperçu du fonctionnement du site en cliquant **[ICI](https://flabby-owl.github.io/Flabby-Owl_website_GUI/ "Aperçu du site")**
+
+https://flabby-owl.github.io/Flabby-Owl_website_GUI/ 
+
 Étant donné qu'actuellement ce projet est en **HTML/CSS/JS/jQuery** pur, aucune dépendance tierce autre que **git** n'est requise, un simple `git clone https://github.com/Flabby-Owl/Flabby-Owl_website_GUI.git` suffit.
